@@ -1,0 +1,86 @@
+.input {
+    font-family: san-serif;
+    border: 1px solid var(--border-primary);
+    border-radius: 4px;
+    color: var(--text-primary);
+
+    &:placeholder {
+        color: var(--gray-primary);
+    }
+
+    &:focus-visible {
+        outline: none;
+    }
+
+    &:disabled {
+        color: var(--text-disabled);
+        &:hover {
+            cursor: not-allowed;
+        }
+
+        &::placeholder {
+            color: var(--text-disabled);
+        }
+    }
+}
+
+.xs {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 1px 11px;
+}
+
+.md {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 7px 11px;
+}
+
+.l {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 7px 11px 7px 15px;
+}
+
+.xl {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 9px 11px 9px 15px;
+}
+
+.quiet {
+    border: none;
+    outline: none;
+}
+
+.fill {
+    background-color: var(--bg-color);
+}
+
+.outline {
+    background-color: transparent;
+}
+
+.error {
+    border-color: var(--border-error);
+
+    &:focus-visible {
+        outline: 3px solid #fda29b66;
+    }
+}
+
+.minimal {
+    padding: 0;
+    border: none;
+    border-radius: initial;
+    outline: none;
+    background-color: transparent;
+
+    &:focus-visible {
+        outline: none;
+    }
+}

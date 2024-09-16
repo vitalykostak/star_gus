@@ -1,0 +1,13 @@
+{
+  "articles": "Articles",
+  "article_was_not_found": "Article was not found",
+  "error_while_loading": "Error while loading",
+  "create_article":"Create article",
+  "edit_article_with_id": "Edit article with id = {{id}}",
+  "articles_types":{
+    "ALL":"All types",
+    "IT":"It",
+    "SCIENCE":"Science",
+    "ECONOMICS":"Economics"
+  }
+}

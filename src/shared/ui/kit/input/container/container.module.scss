@@ -1,0 +1,25 @@
+.vertical {
+    display: flex;
+    flex-direction: column;
+
+    &.xs {
+        gap: 4px;
+    }
+    &.md {
+        gap: 4px;
+    }
+    &.l {
+        gap: 6px;
+    }
+    &.xl {
+        gap: 6px;
+    }
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
